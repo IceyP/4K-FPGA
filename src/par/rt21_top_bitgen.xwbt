@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\MyProjects\STV\rt21u\03.src\par\rt21_top.ncd
+OUTFILE=E:\MyProjects\STV\rt21u\03.src\par\rt21_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=E:\MyProjects\STV\rt21u\03.src\par
+LICENSE=WebPack
+USER_INFO=__0_0_0

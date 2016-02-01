@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout3 = PERIOD &quot;u0_clk_rst_u0_pll_60m_clkout3&quot; TS_clk_27m / 4.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout1 = PERIOD &quot;u0_clk_rst_u0_pll_60m_clkout1&quot; TS_clk_27m / 2.25 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout0 = PERIOD &quot;u0_clk_rst_u0_pll_60m_clkout0&quot; TS_clk_27m / 1.125 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_27m</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_27m</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout2 = PERIOD &quot;u0_clk_rst_u0_pll_60m_clkout2&quot; TS_clk_27m / 3.375 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;PIN &quot;u0_clk_rst/u0_pll_60m/clkout2_buf.O&quot; CLOCK_DEDICATED_ROUTE = FALSE;&gt; [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(182)]</arg> is overridden on the design object <arg fmt="%s" index="2">u0_clk_rst/u0_pll_60m/clkout2_buf/O</arg> by the constraint <arg fmt="%s" index="3">&lt;PIN &quot;u0_clk_rst/u0_pll_60m/clkout2_buf.O&quot; CLOCK_DEDICATED_ROUTE = FALSE;&gt; [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(184)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;PIN &quot;u0_clk_rst/u0_pll_60m/clkout1_buf.O&quot; CLOCK_DEDICATED_ROUTE = FALSE;&gt; [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(183)]</arg> is overridden on the design object <arg fmt="%s" index="2">u0_clk_rst/u0_pll_60m/clkout1_buf/O</arg> by the constraint <arg fmt="%s" index="3">&lt;PIN &quot;u0_clk_rst/u0_pll_60m/clkout1_buf.O&quot; CLOCK_DEDICATED_ROUTE = FALSE;&gt; [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(185)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">u0_clk_rst/u1_rst30m_sync/reset_sync2</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

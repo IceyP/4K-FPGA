@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent ddp_ram_d32_w32_exdes
+-p xc6slx16-ftg256-3
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn ddp_ram_d32_w32_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

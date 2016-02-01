@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.40xd
+# Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.40xd
+DATE            08/26/2015 - 14:06
+SOURCE          D:\svn_work\03.src\par\UV01.mcs
+DEVICE          8192K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x7942C1A9
+START_ADDRESS   0x00000000 END_ADDRESS 0x00071CD3 DIRECTION_UP   "D:/svn_work/03.src/par/rt21_top.bit" 6slx16ftg256

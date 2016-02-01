@@ -1,0 +1,76 @@
+Release 14.5 ngdbuild P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc
+E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2
+rt21_top_cs.ngc rt21_top.ngd
+
+Reading NGO file "E:/MyProjects/STV/rt21u/03.src/par/rt21_top_cs.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout3 = PERIOD
+   "u0_clk_rst_u0_pll_60m_clkout3" TS_clk_27m / 4.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout1 = PERIOD
+   "u0_clk_rst_u0_pll_60m_clkout1" TS_clk_27m / 2.25 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout0 = PERIOD
+   "u0_clk_rst_u0_pll_60m_clkout0" TS_clk_27m / 1.125 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_27m', used in period specification
+   'TS_clk_27m', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_u0_clk_rst_u0_pll_60m_clkout2 = PERIOD
+   "u0_clk_rst_u0_pll_60m_clkout2" TS_clk_27m / 3.375 HIGH 50%>
+
+WARNING:NgdBuild:1012 - The constraint <PIN
+   "u0_clk_rst/u0_pll_60m/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;>
+   [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(182)] is overridden on
+   the design object u0_clk_rst/u0_pll_60m/clkout2_buf/O by the constraint <PIN
+   "u0_clk_rst/u0_pll_60m/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;>
+   [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(184)].
+WARNING:NgdBuild:1012 - The constraint <PIN
+   "u0_clk_rst/u0_pll_60m/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;>
+   [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(183)] is overridden on
+   the design object u0_clk_rst/u0_pll_60m/clkout1_buf/O by the constraint <PIN
+   "u0_clk_rst/u0_pll_60m/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;>
+   [E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf(185)].
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive 'u0_clk_rst/u1_rst30m_sync/reset_sync2' has
+   unconnected output pin
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 266704 kilobytes
+
+Writing NGD file "rt21_top.ngd" ...
+Total REAL time to NGDBUILD completion:  13 sec
+Total CPU time to NGDBUILD completion:   13 sec
+
+Writing NGDBUILD log file "rt21_top.bld"...

@@ -1,0 +1,241 @@
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top.ngc rt21_top.ngd  
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "G:/03.src/par/rt21_top.xst" -ofn "G:/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc G:/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "G:/03.src/par/rt21_top.xst" -ofn "G:/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "G:/03.src/par/rt21_top.xst" -ofn "G:/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "C:/Users/zjk/Desktop/03.src/par/rt21_top.xst" -ofn "C:/Users/zjk/Desktop/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc C:/Users/zjk/Desktop/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc F:/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "D:/svn_work/03.src/par/rt21_top.xst" -ofn "D:/svn_work/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc D:/svn_work/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 
+xst -intstyle ise -ifn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.xst" -ofn "E:/MyProjects/STV/rt21u/03.src/par/rt21_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -sd ../src/xilinx_ipcore -nt timestamp -uc E:/MyProjects/STV/rt21u/03.src/src/top/rt21_top.ucf -p xc6slx16-ftg256-2 rt21_top_cs.ngc rt21_top.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt on -ol high -xe n -t 2 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rt21_top_map.ncd rt21_top.ngd rt21_top.pcf 
+par -w -intstyle ise -ol high -xe n -mt off rt21_top_map.ncd rt21_top.ncd rt21_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rt21_top.twx rt21_top.ncd -o rt21_top.twr rt21_top.pcf 
+bitgen -intstyle ise -f rt21_top.ut rt21_top.ncd 

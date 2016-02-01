@@ -1,0 +1,2 @@
+verilog work "pkt_encypt.v"
+verilog work "ipcore_dir/pll60/example_design/pll60_exdes.v"
