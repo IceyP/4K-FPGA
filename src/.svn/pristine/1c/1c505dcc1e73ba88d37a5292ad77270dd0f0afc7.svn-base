@@ -1,4 +1,0 @@
-dump -file bmg_vcs.vpd -type VPD
-dump -add asyncram_w18d128_tb
-run 
-quit
